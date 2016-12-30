@@ -13,19 +13,20 @@ public class BerlinClockApplication {
         char boxBottomLeft = '\u255A';
         char boxBottomRight = '\u255D';
         char boxHorizontal = '\u2550';
-        char boxvertical = '\u2551';
+        char boxVertical = '\u2551';
 
 
-        System.out.println(boxTopLeft);
+        /*System.out.println(boxTopLeft);
         System.out.println(boxHorizontal);
         System.out.println(boxTopRight);
         System.out.println(boxBottomLeft);
         System.out.println(boxBottomRight);
         System.out.println(boxHorizontal);
-        System.out.println(boxvertical);
+        System.out.println(boxVertical);*/
 
         Date dNow = new Date();
         BerlinClock berlinClock = new BerlinClock(dNow);
+        berlinClock.turnOnClock();
 
 
     }
