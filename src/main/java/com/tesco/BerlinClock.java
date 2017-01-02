@@ -25,20 +25,15 @@ public class BerlinClock {
     private ArrayList<FiveMinuteLamp> fiveMinuteLamps;
     private ArrayList<OneMinuteLamp> oneMinuteLamps;
 
-    public BerlinClock(Date clockTime){
+    public BerlinClock(String clockTime){
 
-        SimpleDateFormat fmt = new SimpleDateFormat("HH:mm:ss");
-        System.out.println(fmt.format(clockTime));
+        hours = Integer.parseInt(clockTime.substring(0,2));
+        minutes = Integer.parseInt(clockTime.substring(3,5));
+        seconds = Integer.parseInt(clockTime.substring(6,8));
 
-        Calendar cal = Calendar.getInstance();
-        cal.setTime(clockTime);
-        hours = cal.get(Calendar.HOUR_OF_DAY);
-        minutes = cal.get(Calendar.MINUTE);
-        seconds = cal.get(Calendar.SECOND);
-        //System.out.println(hours);
-        //System.out.println(minutes);
-        //System.out.println(seconds);
-
+//        System.out.println(hours);
+//        System.out.println(minutes);
+//        System.out.println(seconds);
 
         // Create the 5 minute lamps
         fiveMinuteLamps = new ArrayList<FiveMinuteLamp>(FIVE_MINUTE_LAMP_COUNT);

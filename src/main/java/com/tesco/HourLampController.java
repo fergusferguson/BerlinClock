@@ -20,9 +20,6 @@ public class HourLampController {
     String lampCentreLeft = boxVertical+threeSpace;
     String lampCentreRight = threeSpace+boxVertical;
 
-    private ArrayList<FiveHourLamp> fiveHourLampSet;
-    private ArrayList<OneHourLamp> oneHourLampSet;
-
     public HourLampController(){
 
     }
@@ -65,7 +62,7 @@ public class HourLampController {
     }
 
 
-    public void renderFiveHourLamps(){
+    /*public void renderFiveHourLamps(){
 
         System.out.println(lampTop+lampTop+lampTop+lampTop);
 
@@ -85,5 +82,5 @@ public class HourLampController {
                 lampCentreLeft+oneHourLampSet.get(2).getLampState()+lampCentreRight+
                 lampCentreLeft+oneHourLampSet.get(3).getLampState()+lampCentreRight);
         System.out.println(lampBottom+lampBottom+lampBottom+lampBottom);
-    }
+    }*/
 }
