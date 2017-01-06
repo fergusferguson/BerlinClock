@@ -34,10 +34,13 @@ public class MinuteLampController {
     public void renderMinuteLamps(ArrayList<FiveMinuteLamp> fiveMinuteLampSet,
                                   ArrayList<OneMinuteLamp> oneMinuteLampSet){
 
+
+
         for(int i = 0; i<fiveMinuteLampSet.size();i++){
             System.out.print(fiveMinuteLampSet.get(i).getLampState()+" ");
 
         }
+
         System.out.println();
 
         for(int i = 0; i<oneMinuteLampSet.size();i++){

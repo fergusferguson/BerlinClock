@@ -49,6 +49,7 @@ public class HourLampController {
 
     public void renderHourLamps(ArrayList<FiveHourLamp> fiveHourLampSet,
                                 ArrayList<OneHourLamp> oneHourLampSet){
+
         for(int i = 0; i<fiveHourLampSet.size();i++){
             System.out.print(fiveHourLampSet.get(i).getLampState()+" ");
 
@@ -61,26 +62,4 @@ public class HourLampController {
         }
     }
 
-
-    /*public void renderFiveHourLamps(){
-
-        System.out.println(lampTop+lampTop+lampTop+lampTop);
-
-        System.out.println(lampCentreLeft+fiveHourLampSet.get(0).getLampState()+lampCentreRight+
-                lampCentreLeft+fiveHourLampSet.get(1).getLampState()+lampCentreRight+
-                lampCentreLeft+fiveHourLampSet.get(2).getLampState()+lampCentreRight+
-                lampCentreLeft+fiveHourLampSet.get(3).getLampState()+lampCentreRight);
-        System.out.println(lampBottom+lampBottom+lampBottom+lampBottom);
-    }
-
-    public void renderOneHourLamps(){
-
-        System.out.println(lampTop+lampTop+lampTop+lampTop);
-
-        System.out.println(lampCentreLeft+oneHourLampSet.get(0).getLampState()+lampCentreRight+
-                lampCentreLeft+oneHourLampSet.get(1).getLampState()+lampCentreRight+
-                lampCentreLeft+oneHourLampSet.get(2).getLampState()+lampCentreRight+
-                lampCentreLeft+oneHourLampSet.get(3).getLampState()+lampCentreRight);
-        System.out.println(lampBottom+lampBottom+lampBottom+lampBottom);
-    }*/
 }
