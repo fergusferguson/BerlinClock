@@ -13,7 +13,7 @@ public class BerlinClock {
     private int hours;
     private int minutes;
     private int seconds;
-    private int blahhhhhh;
+    private int blahhhhhhh;
 
 
     private static final int FIVE_HOUR_LAMP_COUNT = 4;
