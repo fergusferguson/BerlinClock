@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac460a5f-24f0-406b-8b07-03b80dddc9ca" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/tesco/App.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/tesco/ClockRenderer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/tesco/MinuteLamps.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/tesco/App.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/tesco/MinuteLamps.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tesco/HourLampController.class" afterPath="$PROJECT_DIR$/target/classes/com/tesco/HourLampController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tesco/MinuteLampController.class" afterPath="$PROJECT_DIR$/target/classes/com/tesco/MinuteLampController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tesco/BerlinClock.java" afterPath="$PROJECT_DIR$/src/main/java/com/tesco/BerlinClock.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tesco/HourLampController.java" afterPath="$PROJECT_DIR$/src/main/java/com/tesco/HourLampController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tesco/MinuteLampController.java" afterPath="$PROJECT_DIR$/src/main/java/com/tesco/MinuteLampController.java" />
     </list>
     <ignored path="Berlin_Clock.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,7 +30,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="50">
               <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#337#338#0" expanded="false" />
+                <element signature="e#370#371#0" expanded="false" />
+                <element signature="e#471#472#0" expanded="false" />
+                <element signature="e#524#525#0" expanded="false" />
+                <element signature="e#599#600#0" expanded="false" />
+                <element signature="e#633#634#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,8 +89,8 @@
       <file leaf-file-name="BerlinClock.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tesco/BerlinClock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+            <state relative-caret-position="375">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -569,7 +567,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1064" extended-state="7" />
+    <frame x="-11" y="-11" width="1942" height="1064" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -946,7 +944,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#337#338#0" expanded="false" />
+            <element signature="e#370#371#0" expanded="false" />
+            <element signature="e#471#472#0" expanded="false" />
+            <element signature="e#524#525#0" expanded="false" />
+            <element signature="e#599#600#0" expanded="false" />
+            <element signature="e#633#634#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1020,8 +1026,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tesco/BerlinClock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        <state relative-caret-position="375">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
